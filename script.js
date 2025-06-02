@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function setPasswordValidity() {
         if (!isValidPassword(password.value)) {
-            password.setCustomValidity('Password must be at least 8 characters and contain at least one uppercase letter, one lowercase letter, and one digit.');
+            password.setCustomValidity('Password must be: \n-at least 8 characters\n-at least one uppercase letter\n-at least one lowercase letter\n-at least one digit.');
         } else if (confirmPassword.value && password.value !== confirmPassword.value) {
             password.setCustomValidity('Passwords do not match.');
         } else {
