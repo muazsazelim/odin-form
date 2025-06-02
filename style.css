@@ -80,15 +80,14 @@ body {
     color: #fff;
     font-size: 4rem;
     letter-spacing: 8px;
-    margin: 0;
+    margin-bottom: 10px;
+    /* Adjusted margin-bottom */
     font-family: 'Norse Bold', Arial, sans-serif;
     line-height: 1;
-    /* normal line height */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    /* fill parent height for vertical centering */
     padding-top: 0;
     /* remove fine-tune padding */
 }
